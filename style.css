@@ -120,46 +120,6 @@ footer p {
     .menu-toggle {
         display: block;
     }
-
-    .back-to-top {
-        display: none;
-    }
-}
-
-/* Back to Top button */
-.back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #f4a6b0; /* Pastel pink */
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    cursor: pointer;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.back-to-top.visible {
-    opacity: 1;
-}
-
-/* Media query to show the Back to Top button on larger screens */
-@media (min-width: 769px) {
-    .back-to-top {
-        display: flex;
-    }
-}
-
-/* Menu Toggle */
-.menu-toggle {
-    display: none;
 }
 
 @media (max-width: 768px) {
